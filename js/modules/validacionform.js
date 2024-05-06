@@ -9,44 +9,36 @@ export default function validateForm() {
   let imagen = document.getElementsByName('imagen')[0].value
 
   console.log(titulo)
-
   if (titulo == '') {
-    alert('El campo titulo es requerido, ingresalo, por favor')
+    alert('El campo Titulo es requerido')
     return false
   }
-
   if (nombre == '') {
-    alert('El campo autor es requerido, ingresalo, por favor')
+    alert('El campo Autor es requerido')
     return false
   }
-
   if (contenido == '') {
-    alert('Debes ingresar contenido.')
+    alert('El campo Contenido es requerido.')
     return false
   }
-
   if (hashtags == '') {
-    alert('Debes por lo menos ingresar un hashtags')
+    alert('Debes seleccionar al menos un hashtags')
     return false
   }
-
   if (fecha == '') {
-    alert('Debes seleccionar la fecha')
+    alert('La Fecha es requerida')
     return false
   }
-
   if (reacciones == '') {
-    alert('Debes seleccionar la Reacciones')
+    alert('Debes Agregar una Reacción')
     return false
   }
-
   if (Comentarios == '') {
-    alert('Vamos no seas huevon, ingresa comentarios')
+    alert('Es requerido colocar Comentarios')
     return false
   }
-
   if (imagen == '') {
-    alert('Selecciona la imagen que quieras')
+    alert('Es requerido colocar una imagen')
     return false
   } else if (!imagen.includes('https:')) {
     alert('Debes ingresar una url de la web')

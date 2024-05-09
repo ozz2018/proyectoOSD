@@ -1,7 +1,7 @@
 {
   "name": "retojs",
   "version": "1.0.0",
-  "description": "reto JavaScript G32",
+  "description": "reto JavaScript G33",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

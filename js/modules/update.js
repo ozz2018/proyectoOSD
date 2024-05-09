@@ -16,8 +16,8 @@ export default function previewData(currentId) {
     false
   )
 
-  if (info) {
-    //Activar el boton de update
+  if (info) { //Activar el boton de update
+   
     document.getElementById('btnPost').hidden = true
     const btn = document.getElementById('btnUpdate')
     btn.hidden = false

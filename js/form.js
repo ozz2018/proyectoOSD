@@ -1,6 +1,9 @@
 import previewData from './modules/update.js'
 import validateForm from './modules/validacionform.js'
 
+const currentDate = new Date();
+const formattedDate = currentDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
 document.addEventListener('DOMContentLoaded', () => {
   const currentId = new URLSearchParams(location.search).get('post')
   currentId && previewData(currentId)
